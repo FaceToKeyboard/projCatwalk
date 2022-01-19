@@ -42,17 +42,25 @@ This project was built using the following primary technologies
   - Testing framework and library used for unit tests, integration tests, and end-to-end tests.
 
 ---
+## Prerequisites
+
+* A valid authorization token from Hack Reactor for API calls
+* Node v16.13 or higher (also confirmed working with v17.4)
 
 ## Installation
 
 Steps for getting started as a developer on this repo:
 
 1. Clone this repo onto your local machine:
-    - ```git clone https://github.com/ascentSquad/projCatwalk.git```
-2. ```cd``` into the repo's root directory
-3. Install the project's depencies:
-    - ```npm install```
+    - `git clone https://github.com/FaceToKeyboard/projCatwalk.git`
+2. `cd` into the repo's root directory
+3. `npm install` to install the project's depencies
+4. `npm run dev-build` to have webpack build bundle.js and bundle.css, and watch for file changes
+5. Open the /server/config.js.example and input your API token. Save and rename the file as `config.js`
+5. `node ./server/index.js` to start the server. Default port is 3000.
 4. Start developing!
+
+See the package.json for more details on the scripts.
 
 ---
 
