@@ -57,7 +57,7 @@ Steps for getting started as a developer on this repo:
 3. `npm install` to install the project's depencies
 4. `npm run dev-build` to have webpack build bundle.js and bundle.css, and watch for file changes
 5. Open the /server/config.js.example and input your API token. Save and rename the file as `config.js`
-5. `node ./server/index.js` to start the server. Default port is 3000.
+5. `node ./server/index.js` to start the server. Default port is 3000. You should be able to see the site via `localhost:3000` in your web browser.
 4. Start developing!
 
 See the package.json for more details on the scripts.
