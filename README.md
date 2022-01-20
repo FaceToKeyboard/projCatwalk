@@ -1,7 +1,5 @@
 A simple demo of this project can be found (for now...) [here](http://204.236.152.139/)
 
-
-
 # "Project Catwalk" - Ascent Squad
 
 ## Background
@@ -10,38 +8,16 @@ A simple demo of this project can be found (for now...) [here](http://204.236.15
 
 This repo contains the submission for **Ascent Squad**, a team consisting of the following developers:
 
-- Sam Pool
 - Fanno Chea
 - Yunfan Gao
+- Sam Pool
 
-These three developers were given roughly 2.5 weeks to build out the front end of the product view of an ecommerce portal from scratch according to a Business Requirements document and a design document.
+We were given 2.5 weeks to build out a single-page application (SPA) that acts as the main product view for an e-commerce site. A Business Requirements document and a design document were provided.
 
----
-
-### The API
-
-Included in this assignment was a provided API with multiple endpoints which respond to requests with varying types of information - general product info, product styles, questions & answers, and ratings & reviews.
-
-The responsibility of Ascent Squad was to harness this provided API to build out a fully functioning product view frontend.
+An API was provided that supplies general product info, product styles, questions & answers, and ratings & reviews.
 
 ---
 
-## Primary Technologies
-
-This project was built using the following primary technologies
-
-- ReactJS
-  - Frontend javascript framework used to build the user interface.
-- Babel
-  - Transpilation package used to convert ReactJS-specific syntax into browser-consumable JavaScript.
-- Webpack.
-  - Bundling package used to bundle javascript modules and component-focused stylesheets into ```.js``` and ```.css``` bundles for browser comsumption.
-- NodeJS + ExpressJS
-  - Backend javascript framework used to build a basic server for serving static files and making authenticated API requests on behalf of the client.
-- Jest + React-Testing-Library
-  - Testing framework and library used for unit tests, integration tests, and end-to-end tests.
-
----
 ## Prerequisites
 
 * A valid authorization token from Hack Reactor for API calls
@@ -64,13 +40,15 @@ See the package.json for more details on the scripts.
 
 ---
 
-## Provided Scripts
+## Primary Technologies
 
-- ```npm run react-dev```
-  - bundles the contents of the ```src/``` directory (also transpiling JavaScript as needed for browser consumption) into bundled ```.js``` and ```.css``` files which are linked into the ```index.html``` page, then __watches for changes and re-bundles on each file change.__
-- ```npm run react-server```
-  - starts a development server which serves the client app from localhost - be default on ```localhost:3000``` - then __watches for changes and restarts the server with updated content on each file change__.
+This project was built using:
 
+- ReactJS
+- NodeJS + ExpressJS
+- Babel
+- Webpack
+- Jest + React-Testing-Library
 
 ---
 
@@ -97,7 +75,7 @@ See the package.json for more details on the scripts.
       - the root JavaScript file of the webpack bundle - imports the ```App.jsx``` file and injects it into the ```/client/dist/index.html``` page.
 
 - ```server/```
-  - files for the minimal ExpressJS server application (API exists   seperately)
+  - files for the minimal ExpressJS server application (API exists seperately)
 - ```.vscode/```
   - shared editor settings for VS Code
 
