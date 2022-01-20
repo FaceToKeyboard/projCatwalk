@@ -160,6 +160,8 @@ The Questions & Answers section is the second/middle section on the page. It dis
 
 The above mentioned components reside in the /client/src/components/QAndA/ subfolder
 
+---
+
 ### Ratings & Reviews
 - Developer: Fanno Chea
 
