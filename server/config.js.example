@@ -1,0 +1,2 @@
+// This needs to be a valid token for accessing Hack Reactor's API
+module.exports.auth = 'COPY_TOKEN_HERE';
