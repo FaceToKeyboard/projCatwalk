@@ -119,6 +119,10 @@ The Product Overview widget is the featured "above-the-fold" component showcasin
   - Quantities are dependant on quantities currently in stock for selected style and size.
 - Add To Cart
   - Allows the user to add the selected quantity of this product in selected style and size to their shopping cart - accomplished through a POST request to the independent API.
+
+Screenshot:
+
+![Product Overview screenshot](./screenshots/product_overview.jpg)
 ---
 
 ### Questions & Answers
@@ -158,7 +162,11 @@ The Questions & Answers section is the second/middle section on the page. It dis
 - 'QuestionForm component'
   - A button can be clicked on to add a question, and the QuestionForm component will pop up to let use enter the detail about the question related to product
 
-The above mentioned components reside in the /client/src/components/QAndA/ subfolder
+The components reside in the /client/src/components/QAndA/ subfolder
+
+Screenshot:
+
+![Questions and Answers screenshot](./screenshots/QA.jpg)
 
 ---
 
